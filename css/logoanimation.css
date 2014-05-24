@@ -1,3 +1,6 @@
+#mainlogo{
+  display:block;
+}
 .path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;

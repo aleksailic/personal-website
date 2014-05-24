@@ -16,4 +16,15 @@ $(document).ready(function(){
   $(".menubtn").click(function() {
     return $(this).toggleClass("active");
   });
+
 });
+
+try{
+    Modernizr.load({
+      test: Modernizr.cssanimations && Modernizr.svg && Modernizr.smil,
+      yep: 'css/logoanimation.css',
+      nope: 'css/logoanimation-polyfill.css'
+    });
+}catch(e){
+    alert(e);
+}
