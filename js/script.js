@@ -12,5 +12,8 @@ $(document).ready(function(){
             return false;
         }
     }
-});  
+  }); 
+  $(".menubtn").click(function() {
+    return $(this).toggleClass("active");
+  });
 });

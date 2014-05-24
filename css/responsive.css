@@ -1,0 +1,96 @@
+/* Responsive menu */
+@media all and (max-width: 550px){
+    .menubtn ~ li{
+        display:none;
+        opacity:0;
+        margin:0 !important;
+    }
+    .menubtn{
+        display:block;
+        width: 36px;
+        height: 24px;
+        cursor: pointer;
+        position: relative;
+        padding:10px;
+        transition:background .35s;
+    }
+    .menubtn:hover i,
+    .menubtn:hover i:before,
+    .menubtn:hover i:after {
+      -webkit-box-shadow: inset 36px 0px 0px #FFF;
+      box-shadow: inset 36px 0px 0px #FFF;
+    }
+    .menubtn i {
+      width: 36px;
+      height: 4.5px;
+      background: #808080;
+      display: block;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -webkit-transition: box-shadow 0.3s linear, -webkit-transform 0.1s linear;
+      -moz-transition: box-shadow 0.3s linear, -moz-transform 0.1s linear;
+      -o-transition: box-shadow 0.3s linear, -o-transform 0.1s linear;
+      -ms-transition: box-shadow 0.3s linear, -ms-transform 0.1s linear;
+      transition: box-shadow 0.3s linear, transform 0.1s linear;
+      position: absolute;
+    }
+    .menubtn i:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 5px;
+      background: #808080;
+      margin-top: 7.5px;
+      -webkit-transition: box-shadow 0.3s linear 0.15s;
+      -moz-transition: box-shadow 0.3s linear 0.15s;
+      -o-transition: box-shadow 0.3s linear 0.15s;
+      -ms-transition: box-shadow 0.3s linear 0.15s;
+      transition: box-shadow 0.3s linear 0.15s;
+    }
+    .menubtn i:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 5px;
+      background: #808080;
+      margin-top: 16px;
+      -webkit-transition: box-shadow 0.3s linear 0.3s, -webkit-transform 0.1s linear;
+      -moz-transition: box-shadow 0.3s linear 0.3s, -moz-transform 0.1s linear;
+      -o-transition: box-shadow 0.3s linear 0.3s, -o-transform 0.1s linear;
+      -ms-transition: box-shadow 0.3s linear 0.3s, -ms-transform 0.1s linear;
+      transition: box-shadow 0.3s linear 0.3s, transform 0.1s linear;
+    }
+    .menubtn.active{
+        background: #000;
+    }
+    .menubtn.active i:before {
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+    }
+    .menubtn.active i {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      top: 7.5px;
+      margin-top:10px;
+    }
+    .menubtn.active i:after {
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      top: -16px;
+    }
+
+    .menubtn.active ~ li{
+        display:block;
+        opacity: 1;
+        
+        background:#000;
+        padding:8px 16px;
+    }
+}

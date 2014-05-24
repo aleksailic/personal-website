@@ -31,7 +31,7 @@
   -webkit-animation: fadeIn 1.2s linear  forwards;
   -webkit-animation-delay: 5s;
 }
-#intro:before { /* BLACK FADE OUT */
+/*#intro:before { /* BLACK FADE OUT */
     content:"";
     position: absolute;
     top:0;
@@ -52,7 +52,7 @@
             animation-fill-mode: both; 
     -webkit-animation-timing-function: linear; 
             animation-timing-function: linear; 
-}
+}*/
 #line1{
     animation-delay: .1s;
     -webkit-animation-delay: .1s;

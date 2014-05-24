@@ -74,37 +74,40 @@ body {height: 100%;font-family: 'Lato', sans-serif;color:#444;margin: 0;}
 /* ===================== */
 
 /* === Menu Styling === */
-#main_menu{
+.menubtn{
+    display:none;
+}
+#menu{
     position: absolute;
     margin:30px 25px;
     z-index: 2;
 }
-ul{
+#menu ul{
     list-style: none;
     text-align: left;
 }
-li{
+#menu li{
     display:block;
+    position: relative;
     margin:5px 0;
     font-family: 'Montserrat', sans-serif;
     font-size:23px;
     font-size:2.3rem;
     text-transform: uppercase;
-    transition: all .5s;
+    transition: opacity .5s, padding .35s, background .25s, color .5s;
     color:#FFF;
     color:rgba(255,255,255,0.4);
 }
-li:hover{
+#menu li:hover{
     color:#FFF;
 }
-li.active{
+#menu li.active{
     color:#FFF;
 }
-a{
+#menu a{
     color:inherit !important;
     text-decoration: none !important;
 }
-
 /* ===================== */
 
 #footer{
@@ -148,7 +151,9 @@ a {text-decoration: none;color: #3498db;}
      box-shadow:0 0 8px black;
 }
 /* ================= */
-
+.header-container img{
+    display:none;
+}
 #webdevtext{
     font-family: 'Droid Sans', sans-serif;
 }
