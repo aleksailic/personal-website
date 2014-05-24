@@ -1,0 +1,196 @@
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: path_a 5s linear  forwards;
+  animation-delay: 2.3s;
+  -webkit-animation: path_a 5s linear  forwards;
+  -webkit-animation-delay: 2.3s;
+  fill:transparent;
+  filter:"url(../logo_dep.svg#dropshadow)";
+}
+.line{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: line_a 6s linear alternate forwards;
+  -webkit-animation: line_a 6s linear alternate forwards;
+  fill:transparent;
+}
+.nofill{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: nofill_a 5s linear  forwards;
+    animation-delay: 3.6s;
+    -webkit-animation: nofill_a 5s linear  forwards;
+    -webkit-animation-delay: 3.6s;
+    fill:transparent;
+}
+#webdevtext{
+  opacity: 0;
+  animation: fadeIn 1s linear  forwards;
+  animation-delay: 6.7s;
+  -webkit-animation: fadeIn 1.2s linear  forwards;
+  -webkit-animation-delay: 5s;
+}
+#intro:before { /* BLACK FADE OUT */
+    content:"";
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 0;
+    background: black;
+    opacity: 1;
+
+    -webkit-animation-name: fadeOut; 
+            animation-name: fadeOut; 
+    -webkit-animation-duration: .8s; 
+            animation-duration: .8s; 
+    -webkit-animation-delay: 8s; 
+            animation-delay: 8s; 
+    -webkit-animation-fill-mode: both; 
+            animation-fill-mode: both; 
+    -webkit-animation-timing-function: linear; 
+            animation-timing-function: linear; 
+}
+#line1{
+    animation-delay: .1s;
+    -webkit-animation-delay: .1s;
+}
+#line2{
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+}
+#line3{
+    animation-delay:.4s;
+    -webkit-animation-delay:.4s;
+}
+#line4{
+    animation-delay: .6s;
+    -webkit-animation-delay: .6s;
+}
+#line9{
+    animation-delay: .8s;
+    -webkit-animation-delay: .8s;
+}
+#line10{
+    animation-delay:1s;
+    -webkit-animation-delay:1s;
+}
+#line5{
+    animation-delay:1.3s;
+    -webkit-animation-delay:1.3s;
+}
+#line6{
+    display:none;
+}
+#line7{
+    animation-delay:1.6s;
+    -webkit-animation-delay:1.6s;
+}
+#line8{
+    animation-delay:1.7s;
+    -webkit-animation-delay:1.7s;
+}
+
+@keyframes line_a {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  50%{
+      stroke-dashoffset: 0;
+  }
+  80%{
+      stroke:white;
+  }
+  100% {
+    stroke-dashoffset: 0;
+      stroke:transparent;
+  }
+}
+@keyframes path_a {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  70%{
+    fill:transparent;
+  }
+  90%{
+    fill:white;  
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill:white;
+  }
+}
+@keyframes nofill_a {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+@-webkit-keyframes nofill_a {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes line_a {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  50%{
+      stroke-dashoffset: 0;
+  }
+  80%{
+      stroke:white;
+  }
+  100% {
+    stroke-dashoffset: 0;
+      stroke:transparent;
+  }
+}
+
+
+@-webkit-keyframes path_a {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  70%{
+    fill:transparent;
+  }
+  90%{
+    fill:white;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill:white;
+  }
+}
+
+
+@-webkit-keyframes fadeOut { 
+    0% {opacity: 1;} 
+    100% {opacity: 0;} 
+} 
+@keyframes fadeOut { 
+    0% {opacity: 1;} 
+    100% {opacity: 0;} 
+} 
+
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
