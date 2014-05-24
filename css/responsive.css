@@ -1,5 +1,5 @@
-/* Responsive menu */
 @media all and (max-width: 550px){
+    /* Responsive menu */
     .menubtn ~ li{
         display:none;
         opacity:0;
@@ -12,7 +12,9 @@
         cursor: pointer;
         position: relative;
         padding:10px;
-        transition:background .35s;
+                transition:background .35s;
+        -webkit-transition:background .35s;
+             -o-transition:background .35s;
     }
     .menubtn:hover i,
     .menubtn:hover i:before,
@@ -92,5 +94,10 @@
         
         background:#000;
         padding:8px 16px;
+    }
+
+    /* Responsive text wrapper */
+    .post{
+      width:95%;
     }
 }
