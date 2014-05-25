@@ -172,10 +172,3 @@ a {text-decoration: none;color: #3498db;}
 #webdevtext .bold{
     font-weight: 700;
 }
-#mainlogo{
-    transform:translate3d();
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-}
