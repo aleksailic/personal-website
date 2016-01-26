@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="340" width="770" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<defs id="defs4">
+		<linearGradient id="linearGradient4116">
+			<stop id="stop4118" stop-color="#646464" offset="0"/>
+			<stop id="stop4120" stop-color="#3c3c3c" offset="1"/>
+		</linearGradient>
+		<linearGradient id="linearGradient4122" y2="927.43" xlink:href="#linearGradient4116" gradientUnits="userSpaceOnUse" x2="191.88" gradientTransform="translate(235.11271,31.339089)" y1="927.43" x1="149.8"/>
+		<linearGradient id="linearGradient4124" y2="84.344" xlink:href="#linearGradient4116" gradientUnits="userSpaceOnUse" x2="190.2" gradientTransform="translate(235.11271,733.70127)" y1="84.344" x1="149.8"/>
+	</defs>
+	<metadata id="metadata7">
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title/>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<g id="layer1" stroke-miterlimit="4" stroke-dasharray="none" transform="translate(0,-712.36218)">
+		<path id="help3" stroke-linejoin="miter" d="M35.113,883.69,385.12,1033.7" stroke-opacity="0.38297873" stroke="#ffffff" stroke-linecap="round" stroke-width="0.5" fill="none"/>
+		<path id="help4" stroke-linejoin="miter" d="M735.83,883.69,385.12,1033.7" stroke-opacity="0.38297873" stroke="#ffffff" stroke-linecap="round" stroke-width="0.5" fill="none"/>
+		<path id="help1" stroke-linejoin="miter" d="M385.12,734.13,35.113,883.69" stroke-opacity="0.38297873" stroke="#ffffff" stroke-linecap="round" stroke-width="0.5" fill="none"/>
+		<path id="help2" stroke-linejoin="miter" d="M735.83,883.69,385.12,734.16" stroke-opacity="0.38297873" stroke="#ffffff" stroke-linecap="round" stroke-width="0.5" fill="none"/>
+		<path id="help5" stroke-linejoin="miter" d="m290.11,1043,0-309.27" stroke-opacity="0.38297873" stroke="#ffffff" stroke-linecap="butt" stroke-width="0.4700948" fill="none"/>
+		<path id="help6" stroke-linejoin="miter" d="m480.11,733.71,0,312.71" stroke-opacity="0.38297873" stroke="#ffffff" stroke-linecap="butt" stroke-width="0.47217187" fill="none"/>
+		<path id="help0" stroke-linejoin="miter" d="m35.091,883.71,700.76,0" stroke-opacity="0.38297873" stroke="#ffffff" stroke-linecap="round" stroke-width="0.4765479" fill="none"/>
+		<path id="path0" stroke-linejoin="miter" d="m385.11,734.23-95,40.531,0,218.21,54.98,23.543,0-132.84,80.02,0,0,133.02,55.001-23.58,0-218.61z" stroke="#dcdcdc" stroke-linecap="butt" stroke-width="2.50000000000000000" fill="#191919"/>
+		<path id="path1" d="m385.11,882.49-41.287,0.0318,0,135.11,41.287,17.409,0-152.55z" stroke="#191919" stroke-width="0.80000000000000004" fill="#ffffff"/>
+		<path id="path4" stroke-linejoin="miter" d="m385.11,784.67-40.031,11.406,0,55.344,40.031-4.2188,0-8.375z" stroke="#191919" stroke-linecap="round" stroke-width="0.40000001000000002" fill="#ffffff"/>
+		<path id="path6" stroke-linejoin="miter" d="m385.35,847.19-40.449,4.2539,40.449,3.5898,39.936-3.5888z" stroke="#191919" stroke-linecap="butt" stroke-width="0.40000001000000002" fill="#323232"/>
+		<path id="path5" stroke-linejoin="miter" d="m385.5,784.67-0.0154,62.491,39.625,4.2588,0-55.156z" stroke="#191919" stroke-linecap="round" stroke-width="0.40000001000000002" fill="url(#linearGradient4124)"/>
+		<path id="path2" d="m385.12,882.51,0,152.53,41.668-17.248,0-135.28-41.668,0z" stroke="#191919" stroke-width="0.80000000000000004" fill="url(#linearGradient4122)"/>
+	</g>
+</svg>

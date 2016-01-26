@@ -1,4 +1,17 @@
 $(document).ready(function(){
+  new WOW().init();
+  
+  try{
+      Modernizr.load({
+        test: Modernizr.cssanimations && Modernizr.svg && Modernizr.smil,
+        yep: 'css/logoanimation.css',
+        nope: 'css/logoanimation-polyfill.css'
+      });
+
+  }catch(e){
+      alert(e);
+  }
+
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) {
@@ -17,14 +30,8 @@ $(document).ready(function(){
     return $(this).toggleClass("active");
   });
 
-});
+  $('.path').each(function(){
+    console.log(this.id+': '+this.getTotalLength());
+  });
 
-try{
-    Modernizr.load({
-      test: Modernizr.cssanimations && Modernizr.svg && Modernizr.smil,
-      yep: 'css/logoanimation.css',
-      nope: 'css/logoanimation-polyfill.css'
-    });
-}catch(e){
-    alert(e);
-}
+});
