@@ -77,6 +77,19 @@
   -webkit-animation-delay: 5s;
   fill-opacity:0;
 }
+#header_text{
+    -webkit-animation-name: fadeIn; 
+            animation-name: fadeIn; 
+    -webkit-animation-duration: 1.4s; 
+            animation-duration: 1.4s; 
+    -webkit-animation-delay: 9s; 
+            animation-delay: 9s; 
+    -webkit-animation-fill-mode: both; 
+            animation-fill-mode: both; 
+    -webkit-animation-timing-function: linear; 
+            animation-timing-function: linear; 
+
+}
 
 @keyframes line_a {
   0% {

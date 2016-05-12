@@ -29,9 +29,4 @@ $(document).ready(function(){
   $(".menubtn").click(function() {
     return $(this).toggleClass("active");
   });
-
-  $('.path').each(function(){
-    console.log(this.id+': '+this.getTotalLength());
-  });
-
 });

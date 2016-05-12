@@ -1,4 +1,4 @@
-@media all and (max-width: 550px){
+@media all and (max-width: 600px){
     /* Responsive menu */
     .menubtn ~ li{
         display:none;
@@ -96,8 +96,24 @@
         padding:8px 16px;
     }
 
+    /* Responsive logo */
+    #header_text{
+        font-size:25px;
+        font-size:2.5rem;
+    }
+
     /* Responsive text wrapper */
     .post{
       width:95%;
     }
+    .module {
+        font-size:17px;
+        font-size:1.7rem;
+        margin: 20px;
+    }
+
+    /* Responsive grid */
+    .col {  margin: 1% 0 1% 0%; }
+    .span3, .span2, .span1 { width: 100%; }
+
 }
