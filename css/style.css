@@ -189,7 +189,7 @@ a {text-decoration: none;color: #3498db;}
     overflow: hidden;
     margin-bottom: 10px;
 }
-.col p{
+.col p, .col a{
     text-transform: uppercase;
     display: block;
     text-align: center;
@@ -212,8 +212,9 @@ a {text-decoration: none;color: #3498db;}
     -webkit-transition: background 0.3s;
     transition: background 0.3s;
 }
-.item-overlay p{
+.item-overlay p, .item-overlay a{
     position: relative;
+    display: block;
     top: 50%;
     width:100%;
     text-align: center;
@@ -243,6 +244,9 @@ a {text-decoration: none;color: #3498db;}
     background:rgba(27, 28, 28, 0.9);
 }
 .item:hover .item-overlay p{
+    opacity: 1;
+}
+.item:hover .item-overlay a{
     opacity: 1;
 }
 .col:first-child { margin-left: 0; }
